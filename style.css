@@ -48,7 +48,6 @@ ul {
     cursor: pointer;
 }
 
-/* Header */
 .header {
     background-color: var(--primary-purple);
     color: var(--white);
@@ -64,8 +63,8 @@ ul {
 }
 
 .logo img {
-    height: 40px; /* Adjust as needed */
-    filter: brightness(0) invert(1); /* Makes logo white if it's dark */
+    height: 40px; 
+    filter: brightness(0) invert(1); 
 }
 
 .nav ul {
@@ -92,13 +91,13 @@ ul {
     background-color: #C0354E;
 }
 
-/* Hero Section */
+
 .hero {
     background-color: var(--dark-purple);
     color: var(--white);
     position: relative;
-    overflow: hidden; /* To contain the background image */
-    padding-top: 80px; /* Space for header */
+    overflow: hidden; 
+    padding-top: 80px; 
 }
 
 .hero-content {
@@ -107,8 +106,8 @@ ul {
     justify-content: space-between;
     padding: 80px 20px;
     position: relative;
-    z-index: 2; /* Ensure content is above background image */
-    flex-wrap: wrap; /* For responsiveness */
+    z-index: 2; 
+    flex-wrap: wrap;
 }
 
 .hero-text {
@@ -220,7 +219,7 @@ ul {
     align-items: center;
     gap: 50px;
     text-align: left;
-    flex-wrap: wrap; /* For responsiveness */
+    flex-wrap: wrap; 
 }
 
 .feature-item {
@@ -272,7 +271,6 @@ ul {
     font-size: 1.2em;
 }
 
-/* Pricing Section */
 .pricing-section {
     background-color: var(--primary-purple);
     color: var(--white);
@@ -307,7 +305,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 30px;
-    flex-wrap: wrap; /* For responsiveness */
+    flex-wrap: wrap; 
 }
 
 .pricing-card {
@@ -346,7 +344,7 @@ ul {
     font-size: 0.4em;
     font-weight: 400;
     opacity: 0.8;
-    display: block; /* To make "per month/year" go to new line */
+    display: block; 
 }
 
 .pricing-card ul {
@@ -373,7 +371,7 @@ ul {
     color: var(--white);
     opacity: 0.7;
     margin-bottom: 30px;
-    min-height: 40px; /* To prevent layout shift if description length varies */
+    min-height: 40px; 
 }
 
 .button-subscribe {
@@ -391,7 +389,6 @@ ul {
     background-color: #C0354E;
 }
 
-/* Footer */
 .footer {
     background-color: var(--dark-purple);
     color: var(--white);
@@ -418,7 +415,6 @@ ul {
     color: var(--light-purple);
 }
 
-/* Responsive Design */
 @media (max-width: 992px) {
     .hero-content {
         flex-direction: column;
